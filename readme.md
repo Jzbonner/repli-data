@@ -25,7 +25,7 @@ Designed for internal use with REPLI, LLC.
 ----
 A web based application for keeping track of community script and social information. Compiles data from the following sources: Elfsight, Captur3d, ApartmentSync, Branding Specifications, and Social Media (Facebook, Instagram, Online Leasing Link, etc.), into an intuitive query application with copy to clipboard functionality. All data stored is publically-accessed information and does not violate any terms of trust.  
 
-1. *Implementation* :
+1. *Implementation* : Pull all community property names from Monday.com using CSV exporter and CSV to json compiler. Then feed community properties to a MongoDB cluster by using Strapi to clean and organize the data effectively. 
 2. *Accessible Data*:
 3. *Inefficiency Solved*:
 
